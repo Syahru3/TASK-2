@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/Task 2/Navbar.css">
+    <link rel="stylesheet" href="/Task 2/card.css">
+    <link rel="stylesheet" href="/Task 2/testimonial.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+</head>
+
+<body>
+    <!-- NAVBAR -->
+     <nav>
+        <div class="left">
+            <ul>
+                <li>
+                    <a href="">
+                        <img 
+                        class="left-logo"
+                        src="/Task 2/Assets/Icon/Logo-DumbWays.png" 
+                        alt="image here"
+                        >
+                    </a>
+                </li>
+                <li class="left-home">
+                    <a href="">Home</a>
+                </li>
+                <li class="left-project">
+                    <a href="">My Project</a>
+                </li>
+                <li class="left-Testimonials">
+                    <a href="">Testimonials</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="button-1">
+                <a href="">
+                    <p class="button-1-text">Contact Me</p>
+                </a>
+            </button>
+
+            <button class="button-2" onclick="toggleNavbar()">
+                    <i class="fa-solid fa-bars fa-2xl"></i>
+            </button>
+        </div>
+
+    </nav>
+
+    <!-- HAMBURGER -->
+    <div class="hamburger-menu hamburger-hide" id="hamburger-container">
+        <h3><a href="">Home</a></h3>
+        <h3><a href="">Blog</a></h3>
+        <h3><a href="">Contact Me</a></h3>
+    </div>
+
+    <!-- STAR BUTTON -->
+     <div class="container">
+        <h1>My Testimonial</h1>
+        <h2>Rating by my Star</h2>
+
+        <div class="rating">
+            <button onclick="allTestimonial()" class="rating-btn">ALL</button>
+            <button onclick="filterTestimonial(1)" class="rating-btn">1 <i class="fa-solid fa-star"></i></button>
+            <button onclick="filterTestimonial(2)" class="rating-btn">2 <i class="fa-solid fa-star"></i></button>
+            <button onclick="filterTestimonial(3)" class="rating-btn">3 <i class="fa-solid fa-star"></i></button>
+            <button onclick="filterTestimonial(4)" class="rating-btn">4 <i class="fa-solid fa-star"></i></button>
+            <button onclick="filterTestimonial(5)" class="rating-btn">5 <i class="fa-solid fa-star"></i></button>
+        </div>
+    </div>
+
+
+    <!-- TEST CARD -->
+     <div class="box2">
+        <div class="row2">
+
+            <section class = "testimonials" id="testimonials"></section>
+        
+        </div>
+    </div>
+
+    
+     
+        <!-- TESTiMONIALS HEREs -->
+
+    
+      
+    <script src="/Task 2/HB-switch.js"></script>
+    <script src="/Task 2/testimonial2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+.container {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px auto;
+    padding: 50px;
+
+}
+
+.container-rating {
+    margin: 20px;
+}
+
+.rating {
+    /* margin-bottom: 100px; */
+}
+
+.rating-btn {
+    border: none;
+    border-radius: 20%;
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
