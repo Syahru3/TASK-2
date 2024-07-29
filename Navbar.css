@@ -1,0 +1,127 @@
+/* NAVBAR */
+
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: rgb(248, 248, 248) ;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+    margin: -10px 0px -20px 0px;
+}
+
+.left ul{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.left ul li{
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.left ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.left-logo{
+    width: 70px;
+}
+
+.left-home{
+    width: 70px;
+}
+
+.left-project{
+    margin-left: -20px;
+}
+
+.left-Testimonials {
+    /* margin-left: 10px; */
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.right button a{
+    text-decoration: none;
+}
+
+.button-1{
+    background-color: black;
+    padding: 5px;
+    width: 100px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.button-2{
+    padding: 5px;
+    display: none;
+}
+
+.button-1-text{
+    color: white;
+    font-weight: bold;
+}
+
+
+/* HAMBURGER MENU */
+.hamburger-menu h3{
+    background-color: orange;
+    margin-top: 2px;
+    text-align: center;
+    border: 1px solid white;
+    margin: 2px;
+}
+
+.hamburger-hide{
+    display: none;
+}
+
+/* .hamburger-menubar{
+    text-align: center;
+    border: 1px solid white;
+    margin: 0;
+    display: none;
+} */
+
+/* NAVBAR RESPONSIVE HAMBURGER */
+@media screen and (max-width: 500px){
+    .left-home {
+        display: none;
+    }
+
+    .left-project {
+        display: none;
+    }
+    
+    .button-1{
+        display: none;
+    }
+
+    .button-2{
+        padding: 5px;
+        display: block;
+        background-color: rgba(0, 255, 255, 0);
+        border: 0;
+        color: orangered;
+    }
+
+    /* .hamburger-menubar{
+        text-align: center;
+        border: 1px solid white;
+        margin: 0;
+        display: block;
+    } */
+
+}
+
